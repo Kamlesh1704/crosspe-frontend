@@ -1,0 +1,39 @@
+.head{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    color: #6ac9e9;
+}
+.table{
+    text-align: center;
+    margin-top: 40px;
+    border: 1px solid black;
+    width: 1200px;
+}
+.containertable{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 105vh;
+}
+.thead{
+    border: 1px solid black;
+    background-color: #FFB808;
+}
+td{
+    border: 1px solid grey;
+    font-size: 20px;
+    background-color: #FFE38E;
+}
+th{
+    font-size: 20px;
+    border: 1px solid grey;
+}
+.red{
+    color: red;
+    font-weight: bold;
+}
+.blue{
+    color: blue;
+}

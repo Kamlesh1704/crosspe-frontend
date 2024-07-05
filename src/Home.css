@@ -1,0 +1,24 @@
+.container h1{
+   text-align: center;
+   color: #1af05e;
+   margin-left: 190px;
+}
+.classcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    list-style-type: none;
+    margin-left: 190px;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    padding-top: 40px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.clas{
+    margin-top: 30px;
+    color: #6ac9e9 !important;
+}

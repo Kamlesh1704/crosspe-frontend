@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+    border-bottom: 2px solid grey;
+    width: 100vw;
+    
+}
+
+.navcontainer{
+    display: flex;
+    align-items: center;
+    margin-right: 300px;
+}
+.logo{
+    font-size: 40px;
+    font-family:'Copperplate';
+    padding-bottom: 30px;
+    color: rgb(18, 30, 83) !important;
+    margin-left: 250px;
+}
+.classname{
+    font-size: 25px;
+    padding: 0%;
+    padding-left: 40px;
+    margin-top: 0%;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: none;
+    padding-bottom: 25px;
+}

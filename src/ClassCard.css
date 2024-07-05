@@ -1,0 +1,13 @@
+.image{
+    height: 150px;
+    width: 100%;
+}
+.capacity{
+    font-size: 20px;
+}
+span{
+    font-weight: bold;
+}
+.type{
+    font-size: 25px;
+}
