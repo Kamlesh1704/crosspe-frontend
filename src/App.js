@@ -11,8 +11,8 @@ function App() {
   return (
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" Component={Home} />
           <Route exact path='/register' Component={Register} />
+          <Route exact path="/" Component={Home} />
           <Route exact path='/bookings' Component={Bookings} />
         </Routes>
         <ToastContainer />

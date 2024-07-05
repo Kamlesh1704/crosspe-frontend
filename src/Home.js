@@ -2,9 +2,11 @@ import {React,useState,useEffect} from 'react'
 import './Home.css'
 import ClassCard from './ClassCard';
 import Header from './Header';
+import { useNavigate } from 'react-router-dom';
 
 export default function () {
   const [classData,setClassData] = useState([])
+  const navigate = useNavigate()
 
   useEffect(() => {
     const getClasses = async () => {
@@ -29,6 +31,10 @@ export default function () {
       const data = await response.json()
       setClassData(data)
     
+  }
+  console.log(localStorage.getItem('user'))
+  if(localStorage.getItem('user') === null){
+    return navigate("/register");
   }
 
   return (
