@@ -41,7 +41,7 @@ export default function Register(props) {
         name,
         email
     }
-    const url = "http://localhost:3000/register"
+    const url = "https://crosspe-backend.onrender.com/register"
     const options = {
         method: 'POST',
         headers: {
