@@ -15,7 +15,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 105vh;
+    margin-top: 50px;
 }
 .thead{
     border: 1px solid black;
