@@ -30,10 +30,13 @@ Frontend:
 ```bash
   git clone https://github.com/Kamlesh1704/crosspe-frontend
   cd my-app
+  npm install
+  npm start
 ```
 Backend:
 ```bash
   git clone https://github.com/Kamlesh1704/crossPe-backend
   cd app.js
+  node app.js
 ```
     
